@@ -12,10 +12,10 @@ with open('out.json') as data_up:
 				#print (parentId[0])
 			
 		dict['data'].append({
-			"name":r['preferred_name'] ,
+			"text":r['preferred_name'] ,
 			"id":r['id'],
 			"manager":parentId[0],
-			"children":[]
+			"nodes":[]
 			})
 	
 with open('parsedFile.json', 'w') as outfile:  
@@ -33,10 +33,10 @@ with open('parsedFile.json') as json_data:
 		s=r['manager']
 		if s:
 			parent=dataMap[s]
-			children=parent['children']
+			children=parent['nodes']
 			children.append(r)
-			dataMap[s]['children']=children
-			parent['children']=children
+			dataMap[s]['nodes']=children
+			parent['nodes']=children
 		else:
 			tree.append(dataMap[r['id']])
 	print("tree: ")
