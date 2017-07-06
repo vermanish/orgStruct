@@ -1,0 +1,1095 @@
+{
+    "status": 200,
+    "object": "/meta/response",
+    "data": {
+        "url": "https://api.zenefits.com/core/companies/135749/people",
+        "next_url": "https://api.zenefits.com/core/companies/135749/people?starting_after=2017500",
+        "object": "/meta/list",
+        "data": [
+            {
+                "last_name": "Honore",
+                "preferred_name": "Gertrudis",
+                "manager": {
+                    "url": null,
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/people"
+                },
+                "postal_code": null,
+                "id": "2017461",
+                "city": null,
+                "first_name": "Gertrudis",
+                "middle_name": null,
+                "title": null,
+                "work_phone": "(713) 555-1234",
+                "personal_email": "0odya48v@test.com",
+                "state": null,
+                "date_of_birth": "1980-01-01",
+                "location": {
+                    "url": "https://api.zenefits.com/core/locations/219300",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/locations"
+                },
+                "street1": null,
+                "department": {
+                    "url": "https://api.zenefits.com/core/departments/88149",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/departments"
+                },
+                "employments": {
+                    "url": "https://api.zenefits.com/core/people/2017461/employments",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/employments"
+                },
+                "type": "regular",
+                "company": {
+                    "url": "https://api.zenefits.com/core/companies/135749",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/companies"
+                },
+                "status": "active",
+                "subordinates": {
+                    "url": "https://api.zenefits.com/core/people/2017461/subordinates",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/people"
+                },
+                "street2": null,
+                "object": "/core/people",
+                "photo_thumbnail_url": null,
+                "personal_phone": "(650) 555-4321",
+                "federal_filing_status": "married_withhold_single",
+                "work_email": "0odya48v@test.com",
+                "photo_url": null,
+                "url": "https://api.zenefits.com/core/people/2017461",
+                "gender": "F",
+                "country": null
+            },
+            {
+                "last_name": "Petrone",
+                "preferred_name": "Lissette",
+                "manager": {
+                    "url": "https://api.zenefits.com/core/people/2017461",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/people"
+                },
+                "postal_code": null,
+                "id": "2017464",
+                "city": null,
+                "first_name": "Lissette",
+                "middle_name": null,
+                "title": null,
+                "work_phone": "(713) 555-1234",
+                "personal_email": "02mhtsz1@test.com",
+                "state": null,
+                "date_of_birth": "1980-01-01",
+                "location": {
+                    "url": "https://api.zenefits.com/core/locations/219300",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/locations"
+                },
+                "street1": null,
+                "department": {
+                    "url": "https://api.zenefits.com/core/departments/88149",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/departments"
+                },
+                "employments": {
+                    "url": "https://api.zenefits.com/core/people/2017464/employments",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/employments"
+                },
+                "type": "regular",
+                "company": {
+                    "url": "https://api.zenefits.com/core/companies/135749",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/companies"
+                },
+                "status": "active",
+                "subordinates": {
+                    "url": "https://api.zenefits.com/core/people/2017464/subordinates",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/people"
+                },
+                "street2": null,
+                "object": "/core/people",
+                "photo_thumbnail_url": null,
+                "personal_phone": "(650) 555-4321",
+                "federal_filing_status": "married_withhold_single",
+                "work_email": "02mhtsz1@test.com",
+                "photo_url": null,
+                "url": "https://api.zenefits.com/core/people/2017464",
+                "gender": "F",
+                "country": null
+            },
+            {
+                "last_name": "Maul",
+                "preferred_name": "Kylee",
+                "manager": {
+                    "url": "https://api.zenefits.com/core/people/2017461",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/people"
+                },
+                "postal_code": null,
+                "id": "2017465",
+                "city": null,
+                "first_name": "Kylee",
+                "middle_name": null,
+                "title": null,
+                "work_phone": "(713) 555-1234",
+                "personal_email": "0418v96c@test.com",
+                "state": null,
+                "date_of_birth": "1980-01-01",
+                "location": {
+                    "url": "https://api.zenefits.com/core/locations/219300",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/locations"
+                },
+                "street1": null,
+                "department": {
+                    "url": "https://api.zenefits.com/core/departments/88149",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/departments"
+                },
+                "employments": {
+                    "url": "https://api.zenefits.com/core/people/2017465/employments",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/employments"
+                },
+                "type": "regular",
+                "company": {
+                    "url": "https://api.zenefits.com/core/companies/135749",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/companies"
+                },
+                "status": "active",
+                "subordinates": {
+                    "url": "https://api.zenefits.com/core/people/2017465/subordinates",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/people"
+                },
+                "street2": null,
+                "object": "/core/people",
+                "photo_thumbnail_url": null,
+                "personal_phone": "(650) 555-4321",
+                "federal_filing_status": "married_withhold_single",
+                "work_email": "0418v96c@test.com",
+                "photo_url": null,
+                "url": "https://api.zenefits.com/core/people/2017465",
+                "gender": "F",
+                "country": null
+            },
+            {
+                "last_name": "Thoman",
+                "preferred_name": "Kenia",
+                "manager": {
+                    "url": "https://api.zenefits.com/core/people/2017461",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/people"
+                },
+                "postal_code": null,
+                "id": "2017467",
+                "city": null,
+                "first_name": "Kenia",
+                "middle_name": null,
+                "title": null,
+                "work_phone": "(713) 555-1234",
+                "personal_email": "017lwb34@test.com",
+                "state": null,
+                "date_of_birth": "1980-01-01",
+                "location": {
+                    "url": "https://api.zenefits.com/core/locations/219300",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/locations"
+                },
+                "street1": null,
+                "department": {
+                    "url": "https://api.zenefits.com/core/departments/88149",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/departments"
+                },
+                "employments": {
+                    "url": "https://api.zenefits.com/core/people/2017467/employments",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/employments"
+                },
+                "type": "regular",
+                "company": {
+                    "url": "https://api.zenefits.com/core/companies/135749",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/companies"
+                },
+                "status": "active",
+                "subordinates": {
+                    "url": "https://api.zenefits.com/core/people/2017467/subordinates",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/people"
+                },
+                "street2": null,
+                "object": "/core/people",
+                "photo_thumbnail_url": null,
+                "personal_phone": "(650) 555-4321",
+                "federal_filing_status": "married_withhold_single",
+                "work_email": "017lwb34@test.com",
+                "photo_url": null,
+                "url": "https://api.zenefits.com/core/people/2017467",
+                "gender": "F",
+                "country": null
+            },
+            {
+                "last_name": "Frizzell",
+                "preferred_name": "Lisbeth",
+                "manager": {
+                    "url": "https://api.zenefits.com/core/people/2017461",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/people"
+                },
+                "postal_code": null,
+                "id": "2017468",
+                "city": null,
+                "first_name": "Lisbeth",
+                "middle_name": null,
+                "title": null,
+                "work_phone": "(713) 555-1234",
+                "personal_email": "05mj50yp@test.com",
+                "state": null,
+                "date_of_birth": "1980-01-01",
+                "location": {
+                    "url": "https://api.zenefits.com/core/locations/219300",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/locations"
+                },
+                "street1": null,
+                "department": {
+                    "url": "https://api.zenefits.com/core/departments/88149",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/departments"
+                },
+                "employments": {
+                    "url": "https://api.zenefits.com/core/people/2017468/employments",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/employments"
+                },
+                "type": "regular",
+                "company": {
+                    "url": "https://api.zenefits.com/core/companies/135749",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/companies"
+                },
+                "status": "active",
+                "subordinates": {
+                    "url": "https://api.zenefits.com/core/people/2017468/subordinates",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/people"
+                },
+                "street2": null,
+                "object": "/core/people",
+                "photo_thumbnail_url": null,
+                "personal_phone": "(650) 555-4321",
+                "federal_filing_status": "married_withhold_single",
+                "work_email": "05mj50yp@test.com",
+                "photo_url": null,
+                "url": "https://api.zenefits.com/core/people/2017468",
+                "gender": "F",
+                "country": null
+            },
+            {
+                "last_name": "Frizzell",
+                "preferred_name": "Meredith",
+                "manager": {
+                    "url": "https://api.zenefits.com/core/people/2017461",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/people"
+                },
+                "postal_code": null,
+                "id": "2017470",
+                "city": null,
+                "first_name": "Meredith",
+                "middle_name": null,
+                "title": null,
+                "work_phone": "(713) 555-1234",
+                "personal_email": "0qfia61u@test.com",
+                "state": null,
+                "date_of_birth": "1980-01-01",
+                "location": {
+                    "url": "https://api.zenefits.com/core/locations/219300",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/locations"
+                },
+                "street1": null,
+                "department": {
+                    "url": "https://api.zenefits.com/core/departments/88149",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/departments"
+                },
+                "employments": {
+                    "url": "https://api.zenefits.com/core/people/2017470/employments",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/employments"
+                },
+                "type": "regular",
+                "company": {
+                    "url": "https://api.zenefits.com/core/companies/135749",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/companies"
+                },
+                "status": "active",
+                "subordinates": {
+                    "url": "https://api.zenefits.com/core/people/2017470/subordinates",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/people"
+                },
+                "street2": null,
+                "object": "/core/people",
+                "photo_thumbnail_url": null,
+                "personal_phone": "(650) 555-4321",
+                "federal_filing_status": "married_withhold_single",
+                "work_email": "0qfia61u@test.com",
+                "photo_url": null,
+                "url": "https://api.zenefits.com/core/people/2017470",
+                "gender": "F",
+                "country": null
+            },
+            {
+                "last_name": "Chilcott",
+                "preferred_name": "Krista",
+                "manager": {
+                    "url": "https://api.zenefits.com/core/people/2017461",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/people"
+                },
+                "postal_code": null,
+                "id": "2017473",
+                "city": null,
+                "first_name": "Krista",
+                "middle_name": null,
+                "title": null,
+                "work_phone": "(713) 555-1234",
+                "personal_email": "017xq0kk@test.com",
+                "state": null,
+                "date_of_birth": "1980-01-01",
+                "location": {
+                    "url": "https://api.zenefits.com/core/locations/219300",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/locations"
+                },
+                "street1": null,
+                "department": {
+                    "url": "https://api.zenefits.com/core/departments/88149",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/departments"
+                },
+                "employments": {
+                    "url": "https://api.zenefits.com/core/people/2017473/employments",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/employments"
+                },
+                "type": "regular",
+                "company": {
+                    "url": "https://api.zenefits.com/core/companies/135749",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/companies"
+                },
+                "status": "active",
+                "subordinates": {
+                    "url": "https://api.zenefits.com/core/people/2017473/subordinates",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/people"
+                },
+                "street2": null,
+                "object": "/core/people",
+                "photo_thumbnail_url": null,
+                "personal_phone": "(650) 555-4321",
+                "federal_filing_status": "married_withhold_single",
+                "work_email": "017xq0kk@test.com",
+                "photo_url": null,
+                "url": "https://api.zenefits.com/core/people/2017473",
+                "gender": "F",
+                "country": null
+            },
+            {
+                "last_name": "Bear",
+                "preferred_name": "Krista",
+                "manager": {
+                    "url": "https://api.zenefits.com/core/people/2017461",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/people"
+                },
+                "postal_code": null,
+                "id": "2017474",
+                "city": null,
+                "first_name": "Krista",
+                "middle_name": null,
+                "title": null,
+                "work_phone": "(713) 555-1234",
+                "personal_email": "0eka13l2@test.com",
+                "state": null,
+                "date_of_birth": "1980-01-01",
+                "location": {
+                    "url": "https://api.zenefits.com/core/locations/219300",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/locations"
+                },
+                "street1": null,
+                "department": {
+                    "url": "https://api.zenefits.com/core/departments/88149",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/departments"
+                },
+                "employments": {
+                    "url": "https://api.zenefits.com/core/people/2017474/employments",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/employments"
+                },
+                "type": "regular",
+                "company": {
+                    "url": "https://api.zenefits.com/core/companies/135749",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/companies"
+                },
+                "status": "active",
+                "subordinates": {
+                    "url": "https://api.zenefits.com/core/people/2017474/subordinates",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/people"
+                },
+                "street2": null,
+                "object": "/core/people",
+                "photo_thumbnail_url": null,
+                "personal_phone": "(650) 555-4321",
+                "federal_filing_status": "married_withhold_single",
+                "work_email": "0eka13l2@test.com",
+                "photo_url": null,
+                "url": "https://api.zenefits.com/core/people/2017474",
+                "gender": "F",
+                "country": null
+            },
+            {
+                "last_name": "Giancola",
+                "preferred_name": "Terina",
+                "manager": {
+                    "url": "https://api.zenefits.com/core/people/2017461",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/people"
+                },
+                "postal_code": null,
+                "id": "2017476",
+                "city": null,
+                "first_name": "Terina",
+                "middle_name": null,
+                "title": null,
+                "work_phone": "(713) 555-1234",
+                "personal_email": "08ma5nar@test.com",
+                "state": null,
+                "date_of_birth": "1980-01-01",
+                "location": {
+                    "url": "https://api.zenefits.com/core/locations/219300",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/locations"
+                },
+                "street1": null,
+                "department": {
+                    "url": "https://api.zenefits.com/core/departments/88149",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/departments"
+                },
+                "employments": {
+                    "url": "https://api.zenefits.com/core/people/2017476/employments",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/employments"
+                },
+                "type": "regular",
+                "company": {
+                    "url": "https://api.zenefits.com/core/companies/135749",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/companies"
+                },
+                "status": "active",
+                "subordinates": {
+                    "url": "https://api.zenefits.com/core/people/2017476/subordinates",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/people"
+                },
+                "street2": null,
+                "object": "/core/people",
+                "photo_thumbnail_url": null,
+                "personal_phone": "(650) 555-4321",
+                "federal_filing_status": "married_withhold_single",
+                "work_email": "08ma5nar@test.com",
+                "photo_url": null,
+                "url": "https://api.zenefits.com/core/people/2017476",
+                "gender": "F",
+                "country": null
+            },
+            {
+                "last_name": "Henline",
+                "preferred_name": "Afton",
+                "manager": {
+                    "url": "https://api.zenefits.com/core/people/2017461",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/people"
+                },
+                "postal_code": null,
+                "id": "2017479",
+                "city": null,
+                "first_name": "Afton",
+                "middle_name": null,
+                "title": null,
+                "work_phone": "(713) 555-1234",
+                "personal_email": "0x80x3g9@test.com",
+                "state": null,
+                "date_of_birth": "1980-01-01",
+                "location": {
+                    "url": "https://api.zenefits.com/core/locations/219300",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/locations"
+                },
+                "street1": null,
+                "department": {
+                    "url": "https://api.zenefits.com/core/departments/88149",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/departments"
+                },
+                "employments": {
+                    "url": "https://api.zenefits.com/core/people/2017479/employments",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/employments"
+                },
+                "type": "regular",
+                "company": {
+                    "url": "https://api.zenefits.com/core/companies/135749",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/companies"
+                },
+                "status": "active",
+                "subordinates": {
+                    "url": "https://api.zenefits.com/core/people/2017479/subordinates",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/people"
+                },
+                "street2": null,
+                "object": "/core/people",
+                "photo_thumbnail_url": null,
+                "personal_phone": "(650) 555-4321",
+                "federal_filing_status": "married_withhold_single",
+                "work_email": "0x80x3g9@test.com",
+                "photo_url": null,
+                "url": "https://api.zenefits.com/core/people/2017479",
+                "gender": "F",
+                "country": null
+            },
+            {
+                "last_name": "Konkol",
+                "preferred_name": "Marla",
+                "manager": {
+                    "url": "https://api.zenefits.com/core/people/2017461",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/people"
+                },
+                "postal_code": null,
+                "id": "2017481",
+                "city": null,
+                "first_name": "Marla",
+                "middle_name": null,
+                "title": null,
+                "work_phone": "(713) 555-1234",
+                "personal_email": "0bxn04xp@test.com",
+                "state": null,
+                "date_of_birth": "1980-01-01",
+                "location": {
+                    "url": "https://api.zenefits.com/core/locations/219300",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/locations"
+                },
+                "street1": null,
+                "department": {
+                    "url": "https://api.zenefits.com/core/departments/88149",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/departments"
+                },
+                "employments": {
+                    "url": "https://api.zenefits.com/core/people/2017481/employments",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/employments"
+                },
+                "type": "regular",
+                "company": {
+                    "url": "https://api.zenefits.com/core/companies/135749",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/companies"
+                },
+                "status": "active",
+                "subordinates": {
+                    "url": "https://api.zenefits.com/core/people/2017481/subordinates",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/people"
+                },
+                "street2": null,
+                "object": "/core/people",
+                "photo_thumbnail_url": null,
+                "personal_phone": "(650) 555-4321",
+                "federal_filing_status": "married_withhold_single",
+                "work_email": "0bxn04xp@test.com",
+                "photo_url": null,
+                "url": "https://api.zenefits.com/core/people/2017481",
+                "gender": "F",
+                "country": null
+            },
+            {
+                "last_name": "Sessions",
+                "preferred_name": "Bettyann",
+                "manager": {
+                    "url": "https://api.zenefits.com/core/people/2017461",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/people"
+                },
+                "postal_code": null,
+                "id": "2017483",
+                "city": null,
+                "first_name": "Bettyann",
+                "middle_name": null,
+                "title": null,
+                "work_phone": "(713) 555-1234",
+                "personal_email": "0fyqxu42@test.com",
+                "state": null,
+                "date_of_birth": "1980-01-01",
+                "location": {
+                    "url": "https://api.zenefits.com/core/locations/219300",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/locations"
+                },
+                "street1": null,
+                "department": {
+                    "url": "https://api.zenefits.com/core/departments/88149",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/departments"
+                },
+                "employments": {
+                    "url": "https://api.zenefits.com/core/people/2017483/employments",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/employments"
+                },
+                "type": "regular",
+                "company": {
+                    "url": "https://api.zenefits.com/core/companies/135749",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/companies"
+                },
+                "status": "active",
+                "subordinates": {
+                    "url": "https://api.zenefits.com/core/people/2017483/subordinates",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/people"
+                },
+                "street2": null,
+                "object": "/core/people",
+                "photo_thumbnail_url": null,
+                "personal_phone": "(650) 555-4321",
+                "federal_filing_status": "married_withhold_single",
+                "work_email": "0fyqxu42@test.com",
+                "photo_url": null,
+                "url": "https://api.zenefits.com/core/people/2017483",
+                "gender": "F",
+                "country": null
+            },
+            {
+                "last_name": "Shoe",
+                "preferred_name": "Valentine",
+                "manager": {
+                    "url": "https://api.zenefits.com/core/people/2017461",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/people"
+                },
+                "postal_code": null,
+                "id": "2017485",
+                "city": null,
+                "first_name": "Valentine",
+                "middle_name": null,
+                "title": null,
+                "work_phone": "(713) 555-1234",
+                "personal_email": "05lktob9@test.com",
+                "state": null,
+                "date_of_birth": "1980-01-01",
+                "location": {
+                    "url": "https://api.zenefits.com/core/locations/219300",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/locations"
+                },
+                "street1": null,
+                "department": {
+                    "url": "https://api.zenefits.com/core/departments/88149",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/departments"
+                },
+                "employments": {
+                    "url": "https://api.zenefits.com/core/people/2017485/employments",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/employments"
+                },
+                "type": "regular",
+                "company": {
+                    "url": "https://api.zenefits.com/core/companies/135749",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/companies"
+                },
+                "status": "active",
+                "subordinates": {
+                    "url": "https://api.zenefits.com/core/people/2017485/subordinates",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/people"
+                },
+                "street2": null,
+                "object": "/core/people",
+                "photo_thumbnail_url": null,
+                "personal_phone": "(650) 555-4321",
+                "federal_filing_status": "married_withhold_single",
+                "work_email": "05lktob9@test.com",
+                "photo_url": null,
+                "url": "https://api.zenefits.com/core/people/2017485",
+                "gender": "F",
+                "country": null
+            },
+            {
+                "last_name": "Garman",
+                "preferred_name": "Enedina",
+                "manager": {
+                    "url": "https://api.zenefits.com/core/people/2017461",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/people"
+                },
+                "postal_code": null,
+                "id": "2017489",
+                "city": null,
+                "first_name": "Enedina",
+                "middle_name": null,
+                "title": null,
+                "work_phone": "(713) 555-1234",
+                "personal_email": "0n6w1aoq@test.com",
+                "state": null,
+                "date_of_birth": "1980-01-01",
+                "location": {
+                    "url": "https://api.zenefits.com/core/locations/219300",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/locations"
+                },
+                "street1": null,
+                "department": {
+                    "url": "https://api.zenefits.com/core/departments/88149",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/departments"
+                },
+                "employments": {
+                    "url": "https://api.zenefits.com/core/people/2017489/employments",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/employments"
+                },
+                "type": "regular",
+                "company": {
+                    "url": "https://api.zenefits.com/core/companies/135749",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/companies"
+                },
+                "status": "active",
+                "subordinates": {
+                    "url": "https://api.zenefits.com/core/people/2017489/subordinates",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/people"
+                },
+                "street2": null,
+                "object": "/core/people",
+                "photo_thumbnail_url": null,
+                "personal_phone": "(650) 555-4321",
+                "federal_filing_status": "married_withhold_single",
+                "work_email": "0n6w1aoq@test.com",
+                "photo_url": null,
+                "url": "https://api.zenefits.com/core/people/2017489",
+                "gender": "F",
+                "country": null
+            },
+            {
+                "last_name": "Nickell",
+                "preferred_name": "Argelia",
+                "manager": {
+                    "url": "https://api.zenefits.com/core/people/2017461",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/people"
+                },
+                "postal_code": null,
+                "id": "2017491",
+                "city": null,
+                "first_name": "Argelia",
+                "middle_name": null,
+                "title": null,
+                "work_phone": "(713) 555-1234",
+                "personal_email": "02fo7wsf@test.com",
+                "state": null,
+                "date_of_birth": "1980-01-01",
+                "location": {
+                    "url": "https://api.zenefits.com/core/locations/219300",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/locations"
+                },
+                "street1": null,
+                "department": {
+                    "url": "https://api.zenefits.com/core/departments/88149",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/departments"
+                },
+                "employments": {
+                    "url": "https://api.zenefits.com/core/people/2017491/employments",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/employments"
+                },
+                "type": "regular",
+                "company": {
+                    "url": "https://api.zenefits.com/core/companies/135749",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/companies"
+                },
+                "status": "active",
+                "subordinates": {
+                    "url": "https://api.zenefits.com/core/people/2017491/subordinates",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/people"
+                },
+                "street2": null,
+                "object": "/core/people",
+                "photo_thumbnail_url": null,
+                "personal_phone": "(650) 555-4321",
+                "federal_filing_status": "married_withhold_single",
+                "work_email": "02fo7wsf@test.com",
+                "photo_url": null,
+                "url": "https://api.zenefits.com/core/people/2017491",
+                "gender": "F",
+                "country": null
+            },
+            {
+                "last_name": "Ryba",
+                "preferred_name": "Jule",
+                "manager": {
+                    "url": "https://api.zenefits.com/core/people/2017461",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/people"
+                },
+                "postal_code": null,
+                "id": "2017493",
+                "city": null,
+                "first_name": "Jule",
+                "middle_name": null,
+                "title": null,
+                "work_phone": "(713) 555-1234",
+                "personal_email": "0f18866d@test.com",
+                "state": null,
+                "date_of_birth": "1980-01-01",
+                "location": {
+                    "url": "https://api.zenefits.com/core/locations/219300",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/locations"
+                },
+                "street1": null,
+                "department": {
+                    "url": "https://api.zenefits.com/core/departments/88149",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/departments"
+                },
+                "employments": {
+                    "url": "https://api.zenefits.com/core/people/2017493/employments",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/employments"
+                },
+                "type": "regular",
+                "company": {
+                    "url": "https://api.zenefits.com/core/companies/135749",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/companies"
+                },
+                "status": "active",
+                "subordinates": {
+                    "url": "https://api.zenefits.com/core/people/2017493/subordinates",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/people"
+                },
+                "street2": null,
+                "object": "/core/people",
+                "photo_thumbnail_url": null,
+                "personal_phone": "(650) 555-4321",
+                "federal_filing_status": "married_withhold_single",
+                "work_email": "0f18866d@test.com",
+                "photo_url": null,
+                "url": "https://api.zenefits.com/core/people/2017493",
+                "gender": "F",
+                "country": null
+            },
+            {
+                "last_name": "Ryba",
+                "preferred_name": "Christi",
+                "manager": {
+                    "url": "https://api.zenefits.com/core/people/2017461",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/people"
+                },
+                "postal_code": null,
+                "id": "2017497",
+                "city": null,
+                "first_name": "Christi",
+                "middle_name": null,
+                "title": null,
+                "work_phone": "(713) 555-1234",
+                "personal_email": "01awoois@test.com",
+                "state": null,
+                "date_of_birth": "1980-01-01",
+                "location": {
+                    "url": "https://api.zenefits.com/core/locations/219300",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/locations"
+                },
+                "street1": null,
+                "department": {
+                    "url": "https://api.zenefits.com/core/departments/88149",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/departments"
+                },
+                "employments": {
+                    "url": "https://api.zenefits.com/core/people/2017497/employments",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/employments"
+                },
+                "type": "regular",
+                "company": {
+                    "url": "https://api.zenefits.com/core/companies/135749",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/companies"
+                },
+                "status": "active",
+                "subordinates": {
+                    "url": "https://api.zenefits.com/core/people/2017497/subordinates",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/people"
+                },
+                "street2": null,
+                "object": "/core/people",
+                "photo_thumbnail_url": null,
+                "personal_phone": "(650) 555-4321",
+                "federal_filing_status": "married_withhold_single",
+                "work_email": "01awoois@test.com",
+                "photo_url": null,
+                "url": "https://api.zenefits.com/core/people/2017497",
+                "gender": "F",
+                "country": null
+            },
+            {
+                "last_name": "Legrande",
+                "preferred_name": "Emelia",
+                "manager": {
+                    "url": "https://api.zenefits.com/core/people/2017461",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/people"
+                },
+                "postal_code": null,
+                "id": "2017499",
+                "city": null,
+                "first_name": "Emelia",
+                "middle_name": null,
+                "title": null,
+                "work_phone": "(713) 555-1234",
+                "personal_email": "0n66oocj@test.com",
+                "state": null,
+                "date_of_birth": "1980-01-01",
+                "location": {
+                    "url": "https://api.zenefits.com/core/locations/219300",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/locations"
+                },
+                "street1": null,
+                "department": {
+                    "url": "https://api.zenefits.com/core/departments/88149",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/departments"
+                },
+                "employments": {
+                    "url": "https://api.zenefits.com/core/people/2017499/employments",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/employments"
+                },
+                "type": "regular",
+                "company": {
+                    "url": "https://api.zenefits.com/core/companies/135749",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/companies"
+                },
+                "status": "active",
+                "subordinates": {
+                    "url": "https://api.zenefits.com/core/people/2017499/subordinates",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/people"
+                },
+                "street2": null,
+                "object": "/core/people",
+                "photo_thumbnail_url": null,
+                "personal_phone": "(650) 555-4321",
+                "federal_filing_status": "married_withhold_single",
+                "work_email": "0n66oocj@test.com",
+                "photo_url": null,
+                "url": "https://api.zenefits.com/core/people/2017499",
+                "gender": "F",
+                "country": null
+            },
+            {
+                "last_name": "Ryba",
+                "preferred_name": "Arletha",
+                "manager": {
+                    "url": "https://api.zenefits.com/core/people/2017461",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/people"
+                },
+                "postal_code": null,
+                "id": "2017500",
+                "city": null,
+                "first_name": "Arletha",
+                "middle_name": null,
+                "title": null,
+                "work_phone": "(713) 555-1234",
+                "personal_email": "0f7896xs@test.com",
+                "state": null,
+                "date_of_birth": "1980-01-01",
+                "location": {
+                    "url": "https://api.zenefits.com/core/locations/219300",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/locations"
+                },
+                "street1": null,
+                "department": {
+                    "url": "https://api.zenefits.com/core/departments/88149",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/departments"
+                },
+                "employments": {
+                    "url": "https://api.zenefits.com/core/people/2017500/employments",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/employments"
+                },
+                "type": "regular",
+                "company": {
+                    "url": "https://api.zenefits.com/core/companies/135749",
+                    "object": "/meta/ref/detail",
+                    "ref_object": "/core/companies"
+                },
+                "status": "active",
+                "subordinates": {
+                    "url": "https://api.zenefits.com/core/people/2017500/subordinates",
+                    "object": "/meta/ref/list",
+                    "ref_object": "/core/people"
+                },
+                "street2": null,
+                "object": "/core/people",
+                "photo_thumbnail_url": null,
+                "personal_phone": "(650) 555-4321",
+                "federal_filing_status": "married_withhold_single",
+                "work_email": "0f7896xs@test.com",
+                "photo_url": null,
+                "url": "https://api.zenefits.com/core/people/2017500",
+                "gender": "F",
+                "country": null
+            }
+        ]
+    },
+    "error": null
+}
