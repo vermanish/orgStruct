@@ -37,8 +37,6 @@ with open('parsedFile.json') as json_data:
 			children.append(r)
 			dataMap[s]['children']=children
 			parent['children']=children
-			if len(children)>0:
-				print dataMap[s]
 		else:
 			tree.append(dataMap[r['id']])
 	print("tree: ")
