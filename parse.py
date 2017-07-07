@@ -18,18 +18,18 @@ with open('out.json') as data_up:
 			"nodes":[]
 			})
 	
-with open('parsedFile.json', 'w') as outfile:  
-    data=json.dump(dict, outfile)
-    # print data
+# with open('parsedFile.json', 'w') as outfile:  
+#     data=json.dump(dict, outfile)
+#     # print data
 
-with open('parsedFile.json') as json_data:
-	data1=json.load(json_data)
+# with open('parsedFile.json') as json_data:
+# 	data1=json.load(json_data)
 	#data2=json.dumps(json.load(json_data))
 	dataMap={}
-	for r in data1['data']:
+	for r in dict['data']:
 		dataMap[r['id']]=r;
 	tree=[]
-	for r in data1['data']:
+	for r in dict['data']:
 		s=r['manager']
 		if s:
 			parent=dataMap[s]
