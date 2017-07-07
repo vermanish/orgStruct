@@ -31,14 +31,14 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="jquery.js"></script>
   <script src="bootstrap-treeview.min.js"></script>
-  <script type="text/javascript" src="finalJson.json"></script>
+  <script type="text/javascript" src="hierarchyData.json"></script>
     <script >
       var x=(function() {
           var json = null;
           $.ajax({
               'async': false,
               'global': false,
-              'url': "/finalJson.json",
+              'url': "/hierarchyData.json",
               'dataType': "json",
               'success': function (data) {
                   json = data;
