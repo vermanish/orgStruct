@@ -1,10 +1,11 @@
+from django.shortcuts import render,render_to_response
+from django.http import HttpResponse
 import requests
 import json
 import urllib2
 import re
-def extracting_data():
-	from requests_oauthlib import OAuth1
-
+# Create your views here.
+def home(request):
 	url = 'https://api.zenefits.com/core/companies'
 	headers = {"Content-Type":"application/x-www-form-urlencoded",'Authorization': 'Bearer h3DxXrAOTHW6V91MFlXN'}
 	v=requests.get(url,headers=headers).json()
@@ -12,10 +13,6 @@ def extracting_data():
 	url ='https://api.zenefits.com/core/companies/'+companyId +'/people'
 	v=requests.get(url,headers=headers).json()
 
-	# with open('dynamicData.json','w') as data_json:
-	# 	data=json.dump(v,data_json);
-
-	# with open('dynamicData.json') as data_up:
 	data1=v
 	dict={}
 	dict['data']=[]
@@ -33,13 +30,6 @@ def extracting_data():
 			"nodes":[]
 			})
 
-	# with open('parsedFile.json', 'w') as outfile:  
-	#     data=json.dump(dict, outfile)
-	#     # print data
-
-	# with open('parsedFile.json') as json_data:
-	# 	data1=json.load(json_data)
-		#data2=json.dumps(json.load(json_data))
 	dataMap={}
 	for r in dict['data']:
 		dataMap[r['id']]=r;
@@ -55,9 +45,12 @@ def extracting_data():
 		else:
 			tree.append(dataMap[r['id']])
 	print("tree: ")
+	tree=json.dumps(tree)
 	print tree
-		
-	with open('heirarchy view/hierarchyData.json', 'w') as outfile:  
-	    data=json.dump(tree, outfile)
-	    # print data
-extracting_data()
+	
+	# with open('/../static/orgView/js/finalJson.json', 'w') as outfile:  
+	#     data=json.dump(tree, outfile)
+	#     # print data
+
+
+	return render_to_response('index.html', {"my_data":tree})
